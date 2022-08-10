@@ -1,0 +1,48 @@
+int foo(int a){}
+int oof(){}
+
+int a : 2;
+float b : 3/2;
+
+int c : 1;
+int d : 1;
+int e : 1;
+int f : 1;
+
+
+float g[4] : 1 1 1 1;
+int   v[2] : 2 2;
+int v[2];
+
+
+int main()
+{
+    a = b + g[a + a + 3 * 22222 / v[2 + 2]];
+
+    g = g[2];
+    c = g[v[v[1]]];
+
+    d[1] = g[2];
+
+    foo = g[2];
+
+    d = foo(2 + g[a + '2']);
+
+    e = foo(read);
+    e = read;
+
+    f = foo(b);
+
+    f = oof();
+
+    return 2;
+}
+
+\*
+verificar natureza, se: 
+- escalares são usados como escalares 
+- vetores são usados como vetores 
+- funções são usadas como funções 
+- não esqueça de verificar no lado direito (expressões) e no lado esquerdo 
+(atribuições)
+*\

@@ -1,0 +1,11 @@
+int foo(int a, int b)
+{
+    b = a;
+
+    return b;
+}
+
+int main()
+{
+    print foo(1, 2);
+}

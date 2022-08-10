@@ -1,0 +1,14 @@
+int i: 30000; 
+
+int main()
+{
+    print "START";
+
+    while (i > 0)
+    {
+        i = i - 1;
+        print ".";
+    };
+
+    print "FINISH";
+}

@@ -1,0 +1,32 @@
+int i 0;
+int a : 1;
+char v[];
+
+int foo()
+{
+    print "teste";
+}
+
+int fooo
+{
+    print "teste";
+}
+
+
+int main()
+{
+    i = 8
+    i = 2;
+    i = foo 3;
+    a = foo();
+    i = ;
+    
+    if() then {
+        print "erro";
+    };
+
+    \\ comentario
+}
+
+int test(){
+    a = 2;

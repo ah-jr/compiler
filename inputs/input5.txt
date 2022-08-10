@@ -1,0 +1,18 @@
+int global : 0;
+int index : 5;
+int v[3] : 1 2 3;
+
+int foo(int a, int b){
+    global = global + 1;
+    return a + b;
+}
+
+int main()
+{
+    global = 2;
+
+    while (index > 1){
+        print(foo(v[1], global));
+        index = index - 1;
+    };
+}

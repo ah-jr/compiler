@@ -1,0 +1,14 @@
+int v[1000];
+int g[1000];
+int h[1000];
+int i : 0;
+
+int main()
+{
+    while (i < 1000)
+    {
+        v[i] = g[i];
+        h[i] = g[i];
+        i = i + 1;
+    };
+}
